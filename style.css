@@ -1,0 +1,55 @@
+
+/* High-End Luminous Sky Gradient - Warmer Linen Vibe */
+body {
+  background: radial-gradient(circle at center, #FFFFFF 0%, #F9F7F2 100%);
+  background-attachment: fixed;
+  color: #2D2424;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Concentric Glow Animation */
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  filter: blur(80px);
+  animation: float 20s infinite ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% { transform: scale(1); opacity: 0.3; }
+  50% { transform: scale(1.1); opacity: 0.5; }
+}
+
+/* Refined Studio Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 10px 40px -10px rgba(45, 36, 36, 0.1);
+}
+
+.glass-selected {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #D4A373;
+  box-shadow: 0 0 30px rgba(212, 163, 115, 0.25);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.transition-luxury {
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}

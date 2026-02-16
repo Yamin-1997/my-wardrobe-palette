@@ -1,0 +1,8 @@
+
+{
+  "name": "My Wardrobe Palette",
+  "description": "A sophisticated digital closet and styling application with a 'Smart Luxury' aesthetic, featuring AI-powered fashion recommendations.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
